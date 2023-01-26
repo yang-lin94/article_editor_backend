@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "article-editor-backend"
+version = "0.1.0"
+description = "API"
+authors = ["yang-lin94 <casongg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "article_editor_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask-restful = "^0.3.9"
+flask-sqlalchemy = "^3.0.2"
+flask-mysqldb = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
